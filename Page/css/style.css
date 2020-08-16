@@ -2,7 +2,10 @@
     background: white url(bananas.png) repeat;
         
 }
-li.content {
+div.content{
+    margin-left: 30px;
+}
+li {
     color: deeppink;
     font-size: 1.5em;
     letter-spacing: 2px;
@@ -46,7 +49,26 @@ p {
     color: black;
     font-size: 1.5em;
 }
+
 footer p{
     color: darkblue;
     font-size:1em;
+}
+form{
+    text-align: center;
+}
+
+form input{
+    width: 300px;
+    height: 25px;
+}
+
+form button{
+    width: 70px;
+    height: 25px;
+}
+
+form p label {
+    color: darkslateblue;
+    font-size: 1em;
 }
