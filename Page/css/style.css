@@ -1,0 +1,52 @@
+﻿body {
+    background: white url(bananas.png) repeat;
+        
+}
+li.content {
+    color: deeppink;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-align: left;
+}
+
+header {
+    color: darkviolet;
+    font-size: 2em;
+    font-weight: normal;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-align: left;
+    padding: 20px;
+    border-style: dotted;
+    border-color: darkblue;
+    border-width: 2px;
+}
+h1 {
+    color: rebeccapurple;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+    border-style: dashed;
+    border-color: red;
+    border-width: 5px;
+}
+h2 {
+    color: darkred;
+    font-size: 2em;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    text-align: left;
+}
+p {
+    color: black;
+    font-size: 1.5em;
+}
+footer p{
+    color: darkblue;
+    font-size:1em;
+}
