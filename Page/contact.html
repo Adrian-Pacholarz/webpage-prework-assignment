@@ -3,8 +3,9 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>My first page!</title>
+    <title>Contact Page</title>
     <link rel="stylesheet" href="css\style.css">
+    
 </head>
 <body>
     <header><a href="index.html">index</a> <a href="contact.html">contact</a> <a href="tacos.html">tacos</a> <a href="burritos.html">burritos</a></header>
@@ -13,12 +14,15 @@
         <form>
             <p><label>Enter your name:</label></p>
             <p><input type="text" name="name" placeholder="Your name" /></p>
+            <span id="nameError"></span>
             <p><label>Provide your email:</label></p>
             <p><input type="text" name="email" placeholder="Your email" /></p>
+            <span id="emailError"></span>
             <p><label>Comments:</label></p>
             <p><textarea name="feedback" rows="5" cols="50" placeholder="We are awaiting your valuable feedback!"></textarea></p>
-            <p><button disabled>SEND</button></p>
+            <p><button name="sendButton" type="button" disabled>SEND</button></p>
         </form>
+
     </div>
     <footer>
         <p>
@@ -26,5 +30,6 @@
             Contact number: 666-shaman-666
         </p>
     </footer>
+    <script src="Script1.js"></script>
 </body>
 </html>
